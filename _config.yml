@@ -1,0 +1,41 @@
+# Site Settings
+title: "Darshan Fofadiya"
+description: "The Physics of Intelligence."
+url: "https://darshanfofadiya.github.io"
+baseurl: ""
+
+# The Theme (This does the magic)
+remote_theme: "mmistakes/minimal-mistakes-jekyll"
+
+# Author Info (Side Bar)
+author:
+  name: "Darshan Fofadiya"
+  avatar: "/assets/images/profile.jpg" # We will add this later
+  bio: "Senior Applied Scientist @ Amazon.<br>Building System 2 for AI."
+  location: "Seattle, WA"
+  email: "fofadiyadarshan@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/DarshanFofadiya"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com" # Update this later
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/darshan-fofadiya"
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Navigation (Top Bar)
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
