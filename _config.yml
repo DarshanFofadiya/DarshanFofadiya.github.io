@@ -1,11 +1,11 @@
 # Site Settings
 title: "Darshan Fofadiya"
 description: "The Physics of Intelligence."
-url: "https://darshanfofadiya.github.io"
+url: "https://darshanfofadiya.github.io" # Ensure this matches your repo name
 baseurl: ""
 
-# The Theme (This does the magic)
-remote_theme: "mmistakes/minimal-mistakes-jekyll"
+# The Theme (CORRECTED)
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Author Info (Side Bar)
 author:
