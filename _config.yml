@@ -43,10 +43,4 @@ defaults:
       author_profile: true
       classes: wide  # <--- THIS IS THE SECRET TO EUGENE YAN'S LOOK
 
-# Activate the Navigation
-navigation:
-  main:
-    - title: "About"
-      url: /
-    # - title: "Research"  # Uncomment these as we build the pages
-    #   url: /research/
+
