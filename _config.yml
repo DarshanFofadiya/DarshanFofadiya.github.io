@@ -1,18 +1,38 @@
-# Site Settings
+# -----------------------
+# SITE SETTINGS
+# -----------------------
 title: "Darshan Fofadiya"
 name: "Darshan Fofadiya"
 description: "The Physics of Intelligence."
 url: "https://darshanfofadiya.github.io"
-baseurl: ""
+baseurl: "" # Keep empty
+locale: "en-US"
 
-# The Theme
+# -----------------------
+# THEME & UI
+# -----------------------
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # You can change to "air" or "contrast" later
+minimal_mistakes_skin: "default" # Options: "air", "contrast", "dark"
 
-# Author Info (Sidebar)
+# -----------------------
+# NAVIGATION (The Fix)
+# -----------------------
+# We define the links here directly to ensure they appear.
+navigation:
+  main:
+    - title: "About"
+      url: /
+    - title: "CV"
+      url: /cv/
+    - title: "Research"
+      url: "https://scholar.google.com/citations?user=Tt2mt3EAAAAJ&hl=en"
+
+# -----------------------
+# AUTHOR SIDEBAR
+# -----------------------
 author:
   name: "Darshan Fofadiya"
-  avatar: "/profile.jpg"
+  avatar: "/profile.jpg" # Ensure profile.jpg is in your repo root
   bio: "Senior Applied Scientist @ Amazon.<br>Building System 2 for AI."
   location: "Seattle, WA"
   email: "fofadiyadarshan@gmail.com"
@@ -22,18 +42,22 @@ author:
       url: "https://github.com/DarshanFofadiya"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=Tt2mt3EAAAAJ&hl=en" # Change this later
+      url: "https://scholar.google.com/citations?user=Tt2mt3EAAAAJ&hl=en"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/darshan-fofadiya"
 
-# Build Settings
+# -----------------------
+# BUILD SETTINGS
+# -----------------------
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# Navigation & UI Defaults
+# -----------------------
+# DEFAULTS (Layouts)
+# -----------------------
 defaults:
   - scope:
       path: ""
@@ -41,6 +65,4 @@ defaults:
     values:
       layout: "single"
       author_profile: true
-      classes: wide  # <--- THIS IS THE SECRET TO EUGENE YAN'S LOOK
-
-
+      classes: wide 
