@@ -2,6 +2,6 @@ main:
   - title: "About"
     url: /
   - title: "Research"
-    url: /research/
+    url: "https://scholar.google.com/citations?user=Tt2mt3EAAAAJ&hl=en"
   - title: "CV"
     url: /cv/
