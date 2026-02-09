@@ -1,16 +1,18 @@
 # Site Settings
 title: "Darshan Fofadiya"
+name: "Darshan Fofadiya"
 description: "The Physics of Intelligence."
-url: "https://darshanfofadiya.github.io" # Ensure this matches your repo name
+url: "https://darshanfofadiya.github.io"
 baseurl: ""
 
-# The Theme (CORRECTED)
+# The Theme
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # You can change to "air" or "contrast" later
 
-# Author Info (Side Bar)
+# Author Info (Sidebar)
 author:
   name: "Darshan Fofadiya"
-  avatar: "/assets/images/profile.jpg" # We will add this later
+  avatar: "/assets/images/profile.jpg"
   bio: "Senior Applied Scientist @ Amazon.<br>Building System 2 for AI."
   location: "Seattle, WA"
   email: "fofadiyadarshan@gmail.com"
@@ -20,7 +22,7 @@ author:
       url: "https://github.com/DarshanFofadiya"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com" # Update this later
+      url: "https://scholar.google.com/citations?user=placeholder" # Change this later
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/darshan-fofadiya"
@@ -31,7 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# Navigation (Top Bar)
+# Navigation & UI Defaults
 defaults:
   - scope:
       path: ""
@@ -39,3 +41,12 @@ defaults:
     values:
       layout: "single"
       author_profile: true
+      classes: wide  # <--- THIS IS THE SECRET TO EUGENE YAN'S LOOK
+
+# Activate the Navigation
+navigation:
+  main:
+    - title: "About"
+      url: /
+    # - title: "Research"  # Uncomment these as we build the pages
+    #   url: /research/
