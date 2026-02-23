@@ -4,6 +4,8 @@ author_profile: true
 title: "Blog"
 permalink: /blog/
 classes: wide
+description: "Deep dives into AI systems, distributed computing, and the math behind large language models."
+og_image: /profile.jpg
 ---
 
 ## Technical Writing

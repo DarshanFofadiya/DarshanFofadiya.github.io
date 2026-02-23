@@ -5,19 +5,31 @@ title: "Darshan Fofadiya"
 name: "Darshan Fofadiya"
 description: "The Physics of Intelligence."
 url: "https://darshanfofadiya.github.io"
-baseurl: "" # Keep empty
+baseurl: ""
 locale: "en-US"
+
+# -----------------------
+# SEO & SOCIAL
+# -----------------------
+og_image: /profile.jpg
+twitter:
+  username: DarshanFofadiya
+social:
+  type: Person
+  name: Darshan Fofadiya
+  links:
+    - "https://github.com/DarshanFofadiya"
+    - "https://linkedin.com/in/darshan-fofadiya"
 
 # -----------------------
 # THEME & UI
 # -----------------------
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # Options: "air", "contrast", "dark"
+minimal_mistakes_skin: "default"
 
 # -----------------------
-# NAVIGATION (The Fix)
+# NAVIGATION
 # -----------------------
-# We define the links here directly to ensure they appear.
 navigation:
   main:
     - title: "About"
@@ -34,7 +46,7 @@ navigation:
 # -----------------------
 author:
   name: "Darshan Fofadiya"
-  avatar: "/profile.jpg" # Ensure profile.jpg is in your repo root
+  avatar: "/profile.jpg"
   bio: "Senior Applied Scientist @ Amazon.<br>Building System 2 for AI."
   location: "Seattle, WA"
   email: "fofadiyadarshan@gmail.com"
@@ -59,9 +71,10 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # -----------------------
-# DEFAULTS (Layouts)
+# DEFAULTS
 # -----------------------
 defaults:
   - scope:
