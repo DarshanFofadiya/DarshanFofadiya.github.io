@@ -22,6 +22,8 @@ navigation:
   main:
     - title: "About"
       url: /
+    - title: "Blog"
+      url: /blog/
     - title: "CV"
       url: /cv/
     - title: "Research"
@@ -46,6 +48,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/darshan-fofadiya"
+    - label: "Blog"
+      icon: "fas fa-fw fa-pen"
+      url: "/blog/"
 
 # -----------------------
 # BUILD SETTINGS
@@ -65,4 +70,4 @@ defaults:
     values:
       layout: "single"
       author_profile: true
-      classes: wide 
+      classes: wide
